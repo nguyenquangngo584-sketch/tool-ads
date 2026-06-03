@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Tool Tính Ngân Sách Facebook Ads</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section class="tool">
+    <h1>Tool Tính Ngân Sách Facebook Ads</h1>
+    <p>Ước tính tổng ngân sách và số lead dự kiến cho chiến dịch quảng cáo.</p>
+
+    <input id="nganSachNgay" type="number" placeholder="Nhập ngân sách mỗi ngày">
+    <input id="soNgayChay" type="number" placeholder="Nhập số ngày chạy">
+    <input id="cpaMucTieu" type="number" placeholder="Nhập CPA mục tiêu">
+    <input id="tyLeChot" type="number" placeholder="Nhập tỷ lệ chốt đơn dự kiến (%)">
+<input id="giaTriDon" type="number" placeholder="Nhập giá trị trung bình mỗi đơn">
+
+    <div class="button-group">
+      <button type="button" class="nut-chinh" onclick="tinhNganSach()">Tính ngân sách</button>
+      <button type="button" class="nut-phu" onclick="xoaDuLieu()">Xóa dữ liệu</button>
+    </div>
+
+    <div id="ketQua"></div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

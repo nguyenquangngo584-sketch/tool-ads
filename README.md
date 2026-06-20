@@ -1,4 +1,4 @@
-Tool Tính Ngân Sách Facebook Ads
+ool Tính Ngân Sách Facebook Ads
 
 Đây là web app đơn giản giúp người làm marketing ước tính ngân sách quảng cáo Facebook Ads, số lead dự kiến, số đơn dự kiến và doanh thu dự kiến.
 
